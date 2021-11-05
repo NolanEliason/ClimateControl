@@ -8,8 +8,8 @@ namespace ChemicalCompoundSearchApp
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, Welcome to the Chemical Compound Data search");
-            
 
+            MainMenu();
 
 
             Console.ReadLine();
@@ -54,10 +54,38 @@ namespace ChemicalCompoundSearchApp
             return output;
         }
 
-        private static void MainMenu() {
+        private static string MainMenu() {
+            string output = "";
 
-            Console.Write("What would you like to do?: ");
-             
+            int menuSelection;
+
+            Console.WriteLine("What would you like to do? (Type number to select option): ");
+            Console.WriteLine("[1] View the current list of Chemical Compounds");
+            Console.WriteLine("[2] Add a new Compound");
+            Console.WriteLine("[3] Update an exisiting compound");
+            Console.WriteLine("[4] Remove a compound from list");
+            menuSelection = int.Parse(Console.ReadLine());
+
+            switch (menuSelection)
+            {
+
+                case 1:
+                    output = "view";
+                    break;
+                case 2:
+                    output = "add";
+                    break;
+                case 3:
+                    output = "update";
+                    break;
+                case 4:
+                    output = "delete";
+                    break;
+                default:
+                    break;
+            }
+
+            return output;
 
         }
     }
