@@ -16,7 +16,7 @@ namespace ChemicalCompoundLibray.Models
         public float NormalVaporDensity { get; set; }
         public float CriticalTemperature { get; set; }
         public float CriticalPressure { get; set; }
-        public float Density { get; set; }
+        public float CriticalDensity { get; set; }
         public float ReferenceTemp { get; set; }
         public float ReferencePressure { get; set; }
 
