@@ -3,14 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31727.386
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChemicalCompoundLibray", "ChemicalCompoundLibray\ChemicalCompoundLibray.csproj", "{666FF813-D922-4CB1-B77D-7F77CB86B4C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChemicalCompoundLibray", "ChemicalCompoundLibray\ChemicalCompoundLibray.csproj", "{666FF813-D922-4CB1-B77D-7F77CB86B4C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChemicalCompoundSearchApp", "ChemicalCompoundSearchApp\ChemicalCompoundSearchApp.csproj", "{76DA7D5E-5760-4222-A1CC-321371227433}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChemicalCompoundSearchApp", "ChemicalCompoundSearchApp\ChemicalCompoundSearchApp.csproj", "{76DA7D5E-5760-4222-A1CC-321371227433}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7575FF38-2299-4340-8A4F-E78933961C54}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenhouseGasEmissionsLibrary", "GreenhouseGasEmissionsLibrary\GreenhouseGasEmissionsLibrary.csproj", "{DEE9952C-E26A-4201-BD5D-DF725AD9728D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,10 @@ Global
 		{76DA7D5E-5760-4222-A1CC-321371227433}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76DA7D5E-5760-4222-A1CC-321371227433}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76DA7D5E-5760-4222-A1CC-321371227433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEE9952C-E26A-4201-BD5D-DF725AD9728D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEE9952C-E26A-4201-BD5D-DF725AD9728D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEE9952C-E26A-4201-BD5D-DF725AD9728D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEE9952C-E26A-4201-BD5D-DF725AD9728D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
