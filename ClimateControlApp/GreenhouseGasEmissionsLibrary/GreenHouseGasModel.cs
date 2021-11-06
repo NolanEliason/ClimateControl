@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace GreenhouseGasEmissionsLibrary
 {
-    class GreenHouseGasModel
+    public class GreenHouseGasModel
     {
+
+
     }
 }
